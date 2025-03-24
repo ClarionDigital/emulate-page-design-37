@@ -16,16 +16,16 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#f8f8f8]">
+    <div className="min-h-screen flex flex-col bg-[#f8f8f8] font-opensans">
       <Header />
       
       <main className="flex-1 max-w-3xl mx-auto w-full bg-white shadow-sm">
         <div className="p-4">
-          <h1 className="text-3xl font-bold leading-tight mt-2 mb-4">
+          <h1 className="text-3xl font-bold leading-tight mt-2 mb-4 text-[#111111]">
             Consignado CLT começa nesta sexta-feira sem regulamentação do FGTS como garantia
           </h1>
           
-          <p className="text-base text-gray-700 mb-4">
+          <p className="text-base text-[#555555] mb-4">
             Expectativa é de que normas sobre o tema sejam publicadas apenas em junho. Febraban prevê primeiros dias de operação 'mais modestos'.
           </p>
           
