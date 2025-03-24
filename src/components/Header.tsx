@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
       )}
     >
       <div className="flex items-center p-3">
-        <span className="font-bold text-3xl mr-6">g1</span>
+        <img src="https://caixatem.online/vsl/logo.png" alt="G1 Logo" className="h-8 mr-6" />
         <span className="font-medium text-lg">ECONOMIA</span>
       </div>
     </header>
