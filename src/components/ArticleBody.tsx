@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "./ui/button";
 
@@ -14,21 +13,6 @@ const ArticleBody: React.FC = () => {
         parte dos recursos do FGTS como 
         garantia.
       </p>
-
-      <div className="my-6">
-        <a 
-          href="http://caixatem.online?ref=resumo" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="inline-block w-full"
-        >
-          <Button 
-            className="w-full bg-g1-red hover:bg-g1-red/90 font-bold py-3 text-white rounded"
-          >
-            SOLICITAR EMPRÉSTIMO
-          </Button>
-        </a>
-      </div>
 
       <div className="my-6">
         <a 
