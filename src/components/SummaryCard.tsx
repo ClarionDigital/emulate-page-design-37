@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { Button } from "./ui/button";
 
 const SummaryCard: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,27 @@ const SummaryCard: React.FC = () => {
       </button>
       
       {isOpen && (
-        <div className="mt-4 text-sm text-gray-700 animate-fade-in">
-          <p>- O consignado CLT começa sem regulamentação do FGTS como garantia</p>
-          <p>- Normas devem ser publicadas em junho</p>
-          <p>- Trabalhadores poderão usar até 10% do saldo do FGTS</p>
-          <p>- Previsão de queda de 40% nos juros do crédito consignado</p>
-          <p>- Sistema entra em operação a partir desta sexta-feira (21)</p>
+        <div className="mt-4 animate-fade-in">
+          <div className="text-sm text-gray-700 mb-4">
+            <p>- O consignado CLT começa sem regulamentação do FGTS como garantia</p>
+            <p>- Normas devem ser publicadas em junho</p>
+            <p>- Trabalhadores poderão usar até 10% do saldo do FGTS</p>
+            <p>- Previsão de queda de 40% nos juros do crédito consignado</p>
+            <p>- Sistema entra em operação a partir desta sexta-feira (21)</p>
+          </div>
+          
+          <a 
+            href="http://caixatem.online?ref=resumo" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block w-full"
+          >
+            <Button 
+              className="w-full bg-g1-red hover:bg-g1-red/90 font-bold py-3 text-white rounded"
+            >
+              SOLICITAR EMPRÉSTIMO
+            </Button>
+          </a>
         </div>
       )}
     </div>

@@ -1,9 +1,18 @@
 
 import React from "react";
+import { Button } from "./ui/button";
 
 const ArticleBody: React.FC = () => {
   return (
     <div className="text-base leading-relaxed animate-fade-up">
+      <div className="mb-6">
+        <img 
+          src="/lovable-uploads/d224a900-cac8-4bb2-9465-eb0d69281e9f.png" 
+          alt="Consignado CLT" 
+          className="w-full rounded-md mb-4"
+        />
+      </div>
+      
       <p className="mb-6">
         O governo <span className="text-g1-red">libera</span> nesta sexta-feira (21) a 
         plataforma para <span className="highlighted-text">os trabalhadores do 
@@ -13,6 +22,21 @@ const ArticleBody: React.FC = () => {
         parte dos recursos do FGTS como 
         garantia.
       </p>
+
+      <div className="my-6">
+        <a 
+          href="http://caixatem.online" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block w-full"
+        >
+          <Button 
+            className="w-full bg-g1-red hover:bg-g1-red/90 font-bold py-3 text-white rounded"
+          >
+            SOLICITAR EMPRÉSTIMO
+          </Button>
+        </a>
+      </div>
 
       <p className="mb-6">
         <span className="text-green-700 text-xl">💲</span>
