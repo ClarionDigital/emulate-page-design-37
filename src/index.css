@@ -103,7 +103,7 @@
 
 @layer components {
   .highlighted-text {
-    @apply bg-[#ffedde] px-1 font-medium text-[#333];
+    @apply bg-[#ffeec5] px-1 font-medium text-[#333];
   }
   
   .section-title {
