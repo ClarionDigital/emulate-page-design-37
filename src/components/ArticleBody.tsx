@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "./ui/button";
 
@@ -6,7 +7,8 @@ const ArticleBody: React.FC = () => {
     <div className="text-base leading-relaxed animate-fade-up font-opensans">
       <p className="mb-6">
         O governo <span className="text-g1-red">libera</span> nesta sexta-feira (21) a 
-        plataforma para <span className="highlighted-text">os trabalhadores do 
+        plataforma para <span className="highlighted-text font-bold">
+        os trabalhadores do 
         setor privado, celetistas, buscarem 
         empréstimo consignado (com desconto 
         em folha de pagamento)</span> utilizando 
@@ -31,7 +33,7 @@ const ArticleBody: React.FC = () => {
 
       <p className="mb-6">
         <span className="text-green-700 text-xl">💲</span>
-        Nesta modalidade, <span className="highlighted-text">as parcelas são 
+        Nesta modalidade, <span className="highlighted-text font-bold">as parcelas são 
         quitadas com desconto no 
         contracheque, ou seja, no salário do 
         funcionário que pega um empréstimo 
@@ -39,16 +41,19 @@ const ArticleBody: React.FC = () => {
       </p>
 
       <p className="mb-6">
-        <span className="text-amber-700 text-xl">🔍</span>
-        Com o novo programa, <span className="highlighted-text">todos os 
-        trabalhadores com carteira assinada 
-        poderão contratar essa modalidade de 
-        empréstimo, podendo usar até 10% do 
-        saldo do Fundo de Garantia por Tempo 
-        de Serviço (FGTS) como garantia</span> e, 
-        também, 100% da multa rescisória na 
-        demissão sem justa causa (que equivale a 
-        40% do valor do saldo).
+        <span className="text-amber-700 text-xl">🔍</span> A Caixa lançou um novo aplicativo para facilitar a solicitação do empréstimo com garantia do FGTS. Agora, <span className="highlighted-text font-bold">todos os 
+        trabalhadores com carteira assinada podem contratar essa modalidade de crédito diretamente pelo app, utilizando até 10% do saldo do Fundo de Garantia por Tempo de Serviço (FGTS) como garantia, além de 100% da multa rescisória em caso de demissão sem justa causa (equivalente a 40% do saldo).</span>
+      </p>
+      
+      <p className="mb-6">
+        <span className="text-blue-700 text-xl">📲</span> <a 
+          href="http://caixatem.online?ref=resumo" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-g1-red font-bold"
+        >
+          Clique aqui
+        </a> para acessar o app e solicitar seu empréstimo de forma rápida e segura.
       </p>
 
       <h2 className="section-title">Qual a posição dos bancos</h2>
@@ -64,10 +69,10 @@ const ArticleBody: React.FC = () => {
       </p>
 
       <p className="mb-6">
-        A entidade acrescentou que a <span className="highlighted-text">garantia do 
+        A entidade acrescentou que a <span className="highlighted-text font-bold">garantia do 
         saldo do FGTS, bem como os recursos 
         da multa rescisória</span> que podem ser 
-        oferecidos pelo trabalhador, <span className="highlighted-text">podem 
+        oferecidos pelo trabalhador, <span className="highlighted-text font-bold">podem 
         auxiliar no estímulo à concessão do 
         crédito por parte das instituições 
         financeiras, mas que é "difícil saber em 
@@ -86,7 +91,7 @@ const ArticleBody: React.FC = () => {
       <h2 className="section-title">De quanto será a redução nos juros?</h2>
       <p className="mb-6">
         Com as garantias do FGTS atreladas ao 
-        consignado, <span className="highlighted-text">o governo prevê que a taxa 
+        consignado, <span className="highlighted-text font-bold">o governo prevê que a taxa 
         de juros caia cerca de 40%, quase pela 
         metade, na linha de crédito consignado.</span>
       </p>
@@ -112,7 +117,7 @@ const ArticleBody: React.FC = () => {
 
       <h2 className="section-title">Como aderir?</h2>
       <p className="mb-6">
-        <span className="highlighted-text">Os trabalhadores poderão acessar a 
+        <span className="highlighted-text font-bold">Os trabalhadores poderão acessar a 
         plataforma para analisar as ofertas de 
         empréstimos, comparando, por 
         exemplo, as taxas de juros.</span>
