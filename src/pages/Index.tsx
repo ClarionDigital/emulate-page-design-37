@@ -19,13 +19,13 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-[#f8f8f8]">
       <Header />
       
-      <main className="flex-1 max-w-3xl mx-auto w-full p-4 bg-white shadow-sm my-4 rounded-md animate-fade-in">
-        <article className="space-y-4">
-          <h1 className="text-3xl font-bold leading-tight mt-4 animate-fade-up">
+      <main className="flex-1 max-w-3xl mx-auto w-full bg-white shadow-sm rounded-md animate-fade-in">
+        <div className="p-4">
+          <h1 className="text-3xl font-bold leading-tight mt-2 mb-4 animate-fade-up">
             Consignado CLT começa nesta sexta-feira sem regulamentação do FGTS como garantia
           </h1>
           
-          <p className="text-base text-gray-700 my-4 animate-fade-up">
+          <p className="text-base text-gray-700 mb-4 animate-fade-up">
             Expectativa é de que normas sobre o tema sejam publicadas apenas em junho. Febraban prevê primeiros dias de operação 'mais modestos'.
           </p>
           
@@ -33,7 +33,7 @@ const Index = () => {
             <p>Por <span className="text-g1-red font-medium">Alexandro Martello, g1</span> — Brasília</p>
           </div>
           
-          <div className="text-sm text-gray-500 animate-fade-up">
+          <div className="text-sm text-gray-500 mt-2 animate-fade-up">
             21/03/2025 00h00 · Atualizado há um dia
           </div>
           
@@ -42,7 +42,7 @@ const Index = () => {
           <SummaryCard />
           
           <ArticleBody />
-        </article>
+        </div>
       </main>
       
       <Footer />

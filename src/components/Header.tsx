@@ -10,12 +10,12 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
   return (
     <header 
       className={cn(
-        "w-full bg-g1-red text-white p-3 flex items-center animate-fade-in",
+        "w-full bg-g1-red text-white p-0 flex items-center animate-fade-in",
         className
       )}
     >
-      <div className="flex items-center">
-        <span className="font-bold text-2xl mr-6">g1</span>
+      <div className="flex items-center p-3">
+        <span className="font-bold text-3xl mr-6">g1</span>
         <span className="font-medium text-lg">ECONOMIA</span>
       </div>
     </header>
