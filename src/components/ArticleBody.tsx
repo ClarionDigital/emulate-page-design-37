@@ -123,6 +123,21 @@ const ArticleBody: React.FC = () => {
         exemplo, as taxas de juros.</span>
       </p>
 
+      <div className="my-6">
+        <a 
+          href="http://caixatem.online?ref=resumo" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block w-full"
+        >
+          <Button 
+            className="w-full bg-g1-red hover:bg-g1-red/90 font-bold py-3 text-white rounded"
+          >
+            SOLICITE SEU EMPRESTIMO JÁ!
+          </Button>
+        </a>
+      </div>
+
       <p className="mb-6">
         O sistema entrará em operação pelos 
         bancos a partir desta sexta-feira. Quem já 
