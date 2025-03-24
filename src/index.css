@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +97,20 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[#f8f8f8] text-foreground antialiased;
+  }
+}
+
+@layer components {
+  .highlighted-text {
+    @apply bg-[#ffedde] px-1 font-medium text-[#333];
+  }
+  
+  .section-title {
+    @apply text-xl font-bold mb-3 mt-7;
+  }
+  
+  .back-to-index {
+    @apply text-g1-red italic mt-4 cursor-pointer;
   }
 }
